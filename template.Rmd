@@ -17,7 +17,7 @@ First we create a dataframe containing variables for our plots.
 set.seed(1234)
 
 plot_df = tibble(
-  x = rnorm(1000, sd = .5),
+  x = rnorm(10000, sd = .5),
   y = 1 + 2 * x + rnorm(1000)
 )
 ```
